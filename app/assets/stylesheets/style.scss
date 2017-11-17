@@ -1,0 +1,24 @@
+html,body{
+margin: 0px;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+a,a:visited{
+  color: inherit !important;
+  text-decoration: none;
+}
+#logo{
+  font-size: 1.2em;
+}
+.no-margin{
+  margin: 0px;
+}
+.be-red{
+  background-color: #11E881;
+}
+.white{
+  color: #FFFEF4;
+}
+.large-padding{
+  padding: 5px 3px;
+}
