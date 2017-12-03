@@ -19,7 +19,9 @@
   					<%= link_to "INICIO",  root_path %>
   				</li>
   				<li  style="list-style:none;" class="col-md">
-            <%= link_to "LOCALIZA TU VETE",  root_path %>
+            <%= link_to "LOCALIZA TU VETE" do %>
+            <a href="veterinaria/app/views/welcome/localiza.html.erb">LOCALIZA TU VETE</a>
+            <% end %>
   				</li>
   				<li  style="list-style:none;" class="col-md">
             <%= link_to "MASCOTAS",  root_path %>

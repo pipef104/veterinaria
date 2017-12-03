@@ -22,3 +22,14 @@ a,a:visited{
 .large-padding{
   padding: 5px 3px;
 }
+#map{
+  height: 400px;
+}
+.full-screen{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  text-align: center;
+  background-color:  rgba(250,250,250,0.8);
+};

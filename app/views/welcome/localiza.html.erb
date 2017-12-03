@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Localiza tu Vete</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto+Slab" rel="stylesheet">
+    <style>
+      html,body{
+      margin: 100%;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="full-screen" id="travel-screen">
+      <h1>Espera un momento estamos obteniendo tu localización y cargando el mapa </h1>
+      <p>
+        Es probable que tengas que dar permisos al navegador en la parte superior.
+      </p>
+      <p>
+        Medio de transporte:
+        <select id="travel-mode">
+          <option value="0">Elegir modo</option>
+          <option value="AUTOMOVIL|">Automovil</option>
+          <option value="BICICLETA">Bicicleta</option>
+          <option value="CAMINANDO">Caminando</option>
+          <option></option>
+        </select>
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-md-8">
+            <input type="text" class="from-control" id="search-place" placeholder="Buscar lugar" />
+            <div id="map">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div id="info">
+            </div>
+          </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUvs32w5Tb7pvo2PvBEJWWjTXflUoHpdo&libraries=places"></script>
+    <script src="app/src/user_location.js"></script> //importar archivo
+    <script src="/app/src/main.js"></script>
+  </body>
+</html>
